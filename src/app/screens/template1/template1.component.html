@@ -1,0 +1,10 @@
+<div>
+    <p class="mainTitle">Products</p>
+    <section class="product-list-section">
+        <div class="product-list">
+            <div class="productContainer">
+                <app-product-card *ngFor="let product of products" [product]="product"></app-product-card>
+            </div>
+        </div>
+    </section>
+</div>
